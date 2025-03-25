@@ -1,0 +1,6 @@
+com\myweb\configs\WebApplicationContextConfig.class
+com\myweb\configs\DispatcherServletInit.class
+com\myweb\controllers\IndexController.class
+com\myweb\backend\JakartaRestConfiguration.class
+com\myweb\backend\resources\JakartaEE11Resource.class
+com\myweb\configs\ThymeleafConfig.class
