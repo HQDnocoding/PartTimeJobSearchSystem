@@ -1,6 +1,7 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import Job from '../../../components/Job/Job'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import Job from '../../Job/Job';
+import  './RightContent.scss';
 const RightContent = (props) => {
     return (
         <>

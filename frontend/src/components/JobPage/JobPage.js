@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react'
-import LeftBar from './LeftPage/LeftBar'
-import RightContent from './RightPage/RightContent'
+import RightContent from './RightContent/RightContent'
 import ReactPaginate from 'react-paginate';
-import { getListPostService } from '../../service/userService'
 import { PAGINATION } from '../../utils/constant';
+import { getListPostService } from '../../service/userService';
+import "./JobPage.scss"
+import LeftBar from './LeftBar/LeftBar';
 const JobPage = () => {
 
     const [countPage, setCountPage] = useState(1)

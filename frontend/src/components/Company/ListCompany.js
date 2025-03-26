@@ -3,9 +3,9 @@ import { getListCompany } from '../../service/userService';
 import './ListCompany.scss';
 import { useEffect, useState } from 'react';
 import moment from 'moment';
-import { PAGINATION } from '../../util/constant';
 import ReactPaginate from 'react-paginate';
 import { Link } from 'react-router-dom';
+import { PAGINATION } from '../../utils/constant';
 const ListCompany = () => {
     const [dataCompany, setdataCompany] = useState([])
     const [count, setCount] = useState('')

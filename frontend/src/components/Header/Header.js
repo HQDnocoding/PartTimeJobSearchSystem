@@ -44,7 +44,7 @@ const Header = () => {
                                                     <li ><NavLink to="/" isActive={() => window.scrollTo(0, 0)}>Trang chủ</NavLink></li>
                                                     <li ><NavLink to="/job" isActive={() => window.scrollTo(0, 0)}>Việc làm </NavLink></li>
                                                     <li ><NavLink to="/company" isActive={() => window.scrollTo(0, 0)}>Công ty </NavLink></li>
-                                                    <li ><NavLink to="/about" isActive={() => window.scrollTo(0, 0)}>Giới thiệu</NavLink></li>
+                                                    {/* <li ><NavLink to="/about" isActive={() => window.scrollTo(0, 0)}>Giới thiệu</NavLink></li> */}
                                                     {/* <li><NavLink to="/contact" >Contact</NavLink></li> */}
                                                 </ul>
                                             </nav>

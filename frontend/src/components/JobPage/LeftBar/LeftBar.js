@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import { useFetchAllcode } from '../../../util/fetch'
+import { useFetchAllcode } from '../../../utils/fetch'
+import "./LeftBar.scss"
 const LeftBar = (props) => {
     const { data: dataJobType } = useFetchAllcode('JOBTYPE')
     const { data: dataJobLevel } = useFetchAllcode('JOBLEVEL')

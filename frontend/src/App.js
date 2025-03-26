@@ -7,6 +7,10 @@ import Footer from './components/Footer/Footer';
 import Home from './components/Home/home';
 import { ToastContainer } from 'react-toastify';
 import Login from './components/Authenticate/Login';
+import Register from './components/Authenticate/Register';
+import JobPage from './components/JobPage/JobPage';
+import ListCompany from './components/Company/ListCompany';
+import About from './components/About/About';
 function App() {
   return (
     <BrowserRouter>
@@ -15,13 +19,13 @@ function App() {
         <Routes>
 
           <Route path='/' element={<Home />} />
-          <Route path='/about' element={<Home />} />
+          {/* <Route path='/about' element={<About />} /> */}
           <Route path='/contact' element={<Home />} />
-          <Route path='/job' element={<Home />} />
-          <Route path='/company' element={<Home />} />
+          <Route path='/job' element={<JobPage />} />
+          <Route path='/company' element={<ListCompany />} />
           <Route path='/detail-company/:id' element={<Home />} />
           <Route path='/login' element={<Login />} />
-          <Route path='/register' element={<Home />} />
+          <Route path='/register' element={<Register />} />
           <Route path='/forget-password' element={<Home />} />
           <Route path='/detail-job/:id' element={<Home />} />
 

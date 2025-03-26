@@ -1,11 +1,11 @@
 import React from 'react'
 import { useEffect, useState } from 'react';
 import { toast } from 'react-toastify';
-import { checkUserPhoneService } from '../../service/userService';
-import { useFetchAllcode } from '../../util/fetch';
 import Otp from './Otp';
-import handleValidate from '../../util/Validation';
 import { Link } from 'react-router-dom'
+import { checkUserPhoneService } from '../../service/userService';
+import { useFetchAllcode } from '../../utils/fetch';
+import "./login.scss";
 const Register = () => {
     const [inputValidates, setValidates] = useState({
         phonenumber: true, password: true, firstName: true, lastName: true
